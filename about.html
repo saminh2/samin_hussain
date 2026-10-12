@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="About Samin Hussain, Mechanical Engineering student at the University of Waterloo.">
+  <title>About | Samin Hussain</title>
+  <link rel="shortcut icon" href="assets/favicon.png">
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="index.html">SAMIN HUSSAIN</a>
+  <nav class="desktop-nav"><a class="active" href="about.html">About</a><a href="projects.html">Projects</a><a href="experience.html">Experience</a><a href="contact.html">Contact</a></nav>
+  <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button>
+  <nav class="mobile-nav"><a href="about.html">About</a><a href="projects.html">Projects</a><a href="experience.html">Experience</a><a href="contact.html">Contact</a></nav>
+</header>
+<main>
+  <section class="page-hero section-line">
+    <div class="eyebrow"><span></span> ABOUT / 01</div>
+    <h1>CURIOUS BY<br><em>DEFAULT.</em></h1>
+    <p>I'm interested in understanding how things work, building things with my own hands, and learning from what doesn't work the first time.</p>
+  </section>
+
+  <section class="content-two-column section-line">
+    <div>
+      <div class="eyebrow"><span></span> MY STORY</div>
+      <h2>From taking things apart to studying how to build them better.</h2>
+    </div>
+    <div class="body-copy">
+      <p>I'm Samin, a first-year Mechanical Engineering student at the University of Waterloo from Calgary. My interest in engineering started long before I had the vocabulary for it — building with LEGO, working on cars, experimenting with 3D prints, and constantly wondering why something worked the way it did.</p>
+      <p>That curiosity eventually grew into an interest in CAD, robotics, programming and product design. I enjoy the cycle of making something, finding the weak point, and improving it.</p>
+      <p>Outside of technical work, leadership and community have shaped how I approach projects. Through Muslim Youth Club and other volunteer experiences, I've learned how important communication, mentorship and teamwork are when you're building something with other people.</p>
+    </div>
+  </section>
+
+  <section class="timeline-section section-line">
+    <div class="eyebrow"><span></span> CURRENTLY</div>
+    <div class="current-grid">
+      <div><span>01</span><strong>Mechanical Engineering</strong><p>University of Waterloo</p></div>
+      <div><span>02</span><strong>Based in</strong><p>Waterloo, Ontario</p></div>
+      <div><span>03</span><strong>From</strong><p>Calgary, Alberta</p></div>
+      <div><span>04</span><strong>Learning</strong><p>Engineering fundamentals · CAD · Programming · Design</p></div>
+    </div>
+  </section>
+</main>
+<footer class="site-footer"><span>SAMIN HUSSAIN</span><span>UW // 2026</span></footer>
+<script>
+const t=document.querySelector('.menu-toggle'),m=document.querySelector('.mobile-nav');t.addEventListener('click',()=>{const o=t.getAttribute('aria-expanded')==='true';t.setAttribute('aria-expanded',String(!o));m.classList.toggle('open')});
+</script>
+</body>
+</html>
